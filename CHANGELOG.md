@@ -7,8 +7,13 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## 2026-09-18
 
+### Added
+- `CHANGELOG.md` (`836ce81`)
+- `.gitattributes` enforcing LF line endings; images/fonts marked binary (`9c5a58c`)
+
 ### Changed
 - Ignore local Claude config dir (`/.claude/`) in `.gitignore` (`202eead`)
+- Ignore `.agents/` dir in `.gitignore` (`12fae08`)
 
 ## 2026-09-13
 
