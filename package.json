@@ -4,9 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ts": "tsc --noEmit --incremental",
+    "ts:watch": "bun ts --watch",
+    "dev:ts": "bun run dev & bun run ts:watch",
+    "turbo:ts": "bun run dev --turbo & bun run ts:watch"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

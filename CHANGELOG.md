@@ -5,6 +5,15 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## 2026-09-20
+
+### Added
+- `skills-lock.json` pinning `changelog-generator` skill (source + content hash)
+- Package scripts: `turbo` (Turbopack dev), `ts` (`tsc --noEmit --incremental`), `ts:watch`, `dev:ts`, `turbo:ts` — dev server + type-check in parallel
+
+### Changed
+- Ignore local MCP server config (`/.mcp.json`) in `.gitignore` — holds API keys, stays untracked
+
 ## 2026-09-18
 
 ### Added
